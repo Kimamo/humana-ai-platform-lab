@@ -1,0 +1,14 @@
+{
+  "resourceType": "Patient",
+  "id": "P1001",
+  "active": true,
+  "name": [
+    {
+      "use": "official",
+      "family": "Doe",
+      "given": ["Jane"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1985-06-15"
+}

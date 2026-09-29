@@ -1,0 +1,25 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "MED-P1001-001",
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "197361",
+        "display": "Amlodipine 5 MG Oral Tablet"
+      }
+    ],
+    "text": "Amlodipine 5 mg tablet"
+  },
+  "subject": {
+    "reference": "Patient/P1001"
+  },
+  "authoredOn": "2026-09-01",
+  "dosageInstruction": [
+    {
+      "text": "Take one tablet by mouth once daily"
+    }
+  ]
+}

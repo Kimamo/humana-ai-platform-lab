@@ -1,0 +1,35 @@
+Humana AI Platform Lab
+Clinical Workflow Guidelines
+Version: 1.0
+
+ELEVATED BLOOD PRESSURE
+
+When an elevated blood pressure measurement is recorded, the clinician
+should verify the measurement according to the organization's approved
+clinical workflow.
+
+The clinician should review available patient history and document the
+measurement in the appropriate clinical system.
+
+The AI assistant may summarize approved clinical guidance but must not
+independently diagnose the patient, prescribe medication, or modify the
+patient record.
+
+PATIENT DATA ACCESS
+
+Patient information may only be accessed by authenticated users with
+the required scopes and patient-level authorization.
+
+AI systems must not bypass application authorization controls.
+
+LLM-generated tool requests must pass the same authorization checks as
+requests originating from conventional application workflows.
+
+AI SAFETY
+
+Generated responses based on organizational knowledge should be
+grounded in approved source material.
+
+If sufficient supporting information cannot be retrieved, the assistant
+should indicate that the available knowledge base does not contain
+enough information rather than fabricate an answer.

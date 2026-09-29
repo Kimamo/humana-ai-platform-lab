@@ -1,0 +1,10 @@
+services:
+
+  fhir:
+    image: hapiproject/hapi:latest
+    container_name: humana-fhir
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_CONFIG_LOCATION: "classpath:/application.yaml"
+    restart: unless-stopped

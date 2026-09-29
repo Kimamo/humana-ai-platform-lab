@@ -1,0 +1,242 @@
+{
+    "event_id": "f4b3c85d-f1ce-4964-b573-fd3204d282c2",
+    "timestamp": "2026-09-23T22:46:17.419837+00:00",
+    "request_id": "df3e24ff-0450-4f71-9976-dfa6c6597c64",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "outcome": "DENIED",
+    "reason": "MISSING_REQUIRED_SCOPE",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "1a618517-50d1-4411-bb15-281efa384e26",
+    "timestamp": "2026-09-23T22:46:17.433282+00:00",
+    "request_id": "af9fb013-7fb8-423e-bf5b-7c75fa6700ab",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "resource_type": "patient",
+    "resource_id": "P1002",
+    "outcome": "DENIED",
+    "reason": "PATIENT_ACCESS_DENIED",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "949e3cca-3a1c-45bf-aa96-f9dcd8c5ea5f",
+    "timestamp": "2026-09-23T22:46:28.567605+00:00",
+    "request_id": "9696005f-58d6-47d5-90ab-da1a51a1bdc7",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "outcome": "DENIED",
+    "reason": "MISSING_REQUIRED_SCOPE",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "e9b4f731-e73e-4a25-bb77-7bb12141ddf2",
+    "timestamp": "2026-09-23T22:46:28.580723+00:00",
+    "request_id": "b039dd42-6a58-44d0-9bdd-407cd1591585",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "resource_type": "patient",
+    "resource_id": "P1002",
+    "outcome": "DENIED",
+    "reason": "PATIENT_ACCESS_DENIED",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "099bca97-07c1-4463-abc8-8bc32691fddc",
+    "timestamp": "2026-09-23T22:46:28.589666+00:00",
+    "request_id": "9d85e3f7-c1bc-4a73-8ba4-eba78ee5b068",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "outcome": "DENIED",
+    "reason": "MISSING_REQUIRED_SCOPE",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "ec158a0b-99e3-4b32-a6be-7359a14cb692",
+    "timestamp": "2026-09-23T22:46:28.591443+00:00",
+    "request_id": "74d1804f-09ca-4441-a797-7152ba094052",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "resource_type": "patient",
+    "resource_id": "P1002",
+    "outcome": "DENIED",
+    "reason": "PATIENT_ACCESS_DENIED",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "a7f72e30-0a92-4c4c-bbfc-87d01f180abc",
+    "timestamp": "2026-09-23T22:46:28.595302+00:00",
+    "request_id": "33c74d56-ab0a-497f-8f10-5189f1d02ea4",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "resource_type": "patient",
+    "resource_id": "P1002",
+    "outcome": "DENIED",
+    "reason": "PATIENT_ACCESS_DENIED",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "ed1ae0c3-cca0-40a0-9e67-bd9d1d6c9427",
+    "timestamp": "2026-09-23T22:46:28.597391+00:00",
+    "request_id": "c4fbb9dc-25c9-41d9-bc58-b7a72a7003a2",
+    "event_type": "AUTHORIZATION_ALLOWED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "resource_type": "patient",
+    "resource_id": "P1001",
+    "outcome": "ALLOWED",
+    "reason": "AUTHORIZED",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "f0e6ca9a-4836-41e5-b7d5-e6447fdce45a",
+    "timestamp": "2026-09-23T22:46:28.598652+00:00",
+    "request_id": "c4fbb9dc-25c9-41d9-bc58-b7a72a7003a2",
+    "event_type": "TOOL_EXECUTION_SUCCESS",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "resource_type": "patient",
+    "resource_id": "P1001",
+    "outcome": "ALLOWED",
+    "reason": "TOOL_EXECUTED",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "1cdb7970-3951-4787-aaca-754150a34945",
+    "timestamp": "2026-09-23T22:46:28.600397+00:00",
+    "request_id": "84d44f3b-f5a5-4725-bad8-0a2e2ffb8413",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "resource_type": "patient",
+    "resource_id": "P1002",
+    "outcome": "DENIED",
+    "reason": "PATIENT_ACCESS_DENIED",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "97e2bbd2-1cfb-4817-9777-daffb88797d2",
+    "timestamp": "2026-09-23T22:47:50.701385+00:00",
+    "request_id": "1c68f5dc-8c8e-4f0e-bf1d-d82639e259b0",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "outcome": "DENIED",
+    "reason": "MISSING_REQUIRED_SCOPE",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "dc2ebb59-61e9-41f8-ac86-6ebcf7df1c1d",
+    "timestamp": "2026-09-23T22:47:50.713955+00:00",
+    "request_id": "f1a4a4ac-fdad-400e-a441-38e71a608aba",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "resource_type": "patient",
+    "resource_id": "P1002",
+    "outcome": "DENIED",
+    "reason": "PATIENT_ACCESS_DENIED",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "0c87e40c-545d-478f-befa-4876d40ef4b5",
+    "timestamp": "2026-09-23T22:47:50.722320+00:00",
+    "request_id": "40e82cc5-c87e-4f82-af73-feac0b94d345",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "outcome": "DENIED",
+    "reason": "MISSING_REQUIRED_SCOPE",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "978d1b83-fb42-4228-bc3a-62e75535904f",
+    "timestamp": "2026-09-23T22:47:50.723849+00:00",
+    "request_id": "07da16a4-7e45-4de4-803f-d253a0860a24",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "resource_type": "patient",
+    "resource_id": "P1002",
+    "outcome": "DENIED",
+    "reason": "PATIENT_ACCESS_DENIED",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "0bdd36f5-a6ab-4989-b03d-08661f696d81",
+    "timestamp": "2026-09-23T22:47:50.727189+00:00",
+    "request_id": "a23b2d06-185d-4f09-b1ed-18e6f908db16",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "resource_type": "patient",
+    "resource_id": "P1002",
+    "outcome": "DENIED",
+    "reason": "PATIENT_ACCESS_DENIED",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "d7a57215-8821-4f34-925f-59ac42afd4c5",
+    "timestamp": "2026-09-23T22:47:50.728917+00:00",
+    "request_id": "3681bf25-3147-4752-9906-9cc3e0c62452",
+    "event_type": "AUTHORIZATION_ALLOWED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "resource_type": "patient",
+    "resource_id": "P1001",
+    "outcome": "ALLOWED",
+    "reason": "AUTHORIZED",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "415e72e6-ccfd-47a3-931c-995f56b42cf2",
+    "timestamp": "2026-09-23T22:47:50.730795+00:00",
+    "request_id": "3681bf25-3147-4752-9906-9cc3e0c62452",
+    "event_type": "TOOL_EXECUTION_SUCCESS",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "resource_type": "patient",
+    "resource_id": "P1001",
+    "outcome": "ALLOWED",
+    "reason": "TOOL_EXECUTED",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
+{
+    "event_id": "6bd503ae-7beb-49ab-9211-a389acc20cb8",
+    "timestamp": "2026-09-23T22:47:50.732295+00:00",
+    "request_id": "8efed8e6-5db1-48fd-ac9f-e919e1d9af4f",
+    "event_type": "AUTHORIZATION_DENIED",
+    "user_id": "dr_smith",
+    "tool_name": "get_patient_medications",
+    "resource_type": "patient",
+    "resource_id": "P1002",
+    "outcome": "DENIED",
+    "reason": "PATIENT_ACCESS_DENIED",
+    "required_scope": "medication.read",
+    "metadata": {}
+}
